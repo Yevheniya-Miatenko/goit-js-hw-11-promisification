@@ -1,0 +1,26 @@
+.box {
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-link {
+  text-decoration: none;
+  font-size: 30px;
+  color: darkslateblue;
+  -webkit-transition: color 250ms ease;
+  transition: color 250ms ease;
+}
+
+.menu-link:hover, .menu-link:focus {
+  color: firebrick;
+}
+
+.menu-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=main.css.map */
